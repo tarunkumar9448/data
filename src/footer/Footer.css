@@ -1,0 +1,111 @@
+.footer {
+    background: #202635;
+    background: url(../assets/img/home/footer-bg.jpg) no-repeat center top;
+    color: #9e9e9e;
+    position: relative;
+    padding-top: 110px;
+    background-size: cover;
+}
+
+.footer h4 {
+    margin-bottom: 15px
+}
+
+.footer li {
+    list-style: none
+}
+
+.footer li.links {
+    position: relative
+}
+
+.social .icon {
+    position: relative;
+    background: url(../assets/img/s-media.png);
+    background-repeat: no-repeat;
+    min-width: 27px;
+    height: 27px;
+    border-radius: 50%
+}
+
+.footer .social .icon.face {
+    background-position: 0px 0px
+}
+
+.footer .social .icon.insta {
+    background-position: -27px 0px
+}
+
+.footer .social .icon.twet {
+    background-position: -54px 0px
+}
+
+.footer .social .icon.link {
+    background-position: -81px 0px
+}
+
+.footer .social .icon.pin {
+    background-position: -108px 0px
+}
+
+.footer .social .icon.you {
+    background-position: -135px 0px
+}
+
+.footer .social .icon.face:hover {
+    background-position: 0px -27px
+}
+
+.footer .social .icon.insta:hover {
+    background-position: -27px -27px
+}
+
+.footer .social .icon.twet:hover {
+    background-position: -54px -27px
+}
+
+.footer .social .icon.link:hover {
+    background-position: -81px -27px
+}
+
+.footer .social .icon.pin:hover {
+    background-position: -108px -27px
+}
+
+.footer .social .icon.you:hover {
+    background-position: -135px -27px
+}
+
+footer .copy-text {
+    background: #0f1219;
+    color: #676767
+}
+
+@media(min-width:567px) {}
+
+@media(min-width:768px) {
+    .footer {
+        background: url(../assets/img/home/footer-bg.jpg) no-repeat center top;
+        color: #9e9e9e;
+        position: relative;
+        padding-top: 153px;
+        background-size: cover;
+        margin-top: -100px;
+    }
+
+}
+
+@media(min-width:992px) {
+    .logo {
+        width: 130px;
+    }
+}
+
+@media(min-width:1200px) {
+    .footer {
+        padding-top: 200px;
+        margin-top: -70px;
+    }
+}
+
+
